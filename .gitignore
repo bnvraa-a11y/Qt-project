@@ -1,0 +1,43 @@
+# Build directories
+build/
+cmake-build-debug/
+cmake-build-release/
+.qmake.stash
+
+# Qt Creator user files
+*.user
+*.user.*
+CMakeLists.txt.user*
+
+# Generated files
+ui_*.h
+moc_*.cpp
+qrc_*.cpp
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+venv/
+env/
+ENV/
+.venv
+.env
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Executable
+*.exe
+*.dll
+*.so
